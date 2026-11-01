@@ -1,0 +1,58 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode - build output
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcarchive
+timeline.xctimeline
+playground.xcworkspace
+
+# Xcode - user-specific
+xcuserdata/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+IDEWorkspaceChecks.plist
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.pins
+# Note: do NOT ignore Package.resolved in an app (see below)
+
+# Firebase / secrets
+GoogleService-Info.plist
+GoogleService-Info-*.plist
+google-services.json
+firebase-debug.log
+firebase-debug.*.log
+.firebase/
+.runtimeconfig.json
+serviceAccountKey*.json
+*-firebase-adminsdk-*.json
+
+# Environment / secrets
+.env
+.env.*
+Secrets.xcconfig
+*.xcconfig.local
+
+# Code coverage / test output
+*.gcno
+*.gcda
+*.xcresult
